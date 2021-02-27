@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export DATA=~/data/imagenet
+export DATA=/home/lushun/dataset/ImageNet
 export DATA_LMDB=~/data/imagenet_lmdb
 
 if [ ! -d "${DATA}" ]; then
