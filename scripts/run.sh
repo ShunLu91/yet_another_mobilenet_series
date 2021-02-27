@@ -10,4 +10,4 @@ export ARNOLD_OUTPUT=/home/lushun/code/yet_another_mobilenet_series/output
 
 source ./scripts/utils/setup.sh
 source ./scripts/utils/export_data.sh
-bash ./scripts/utils/remote_run.sh $@
+nohup bash ./scripts/utils/remote_run.sh $@
