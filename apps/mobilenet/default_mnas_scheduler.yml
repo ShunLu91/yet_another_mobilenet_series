@@ -3,7 +3,7 @@ dataset: imagenet1k  # different dataset, could be one of ['imagenet1k', 'imagen
 data_transforms: imagenet1k_mnas_bicubic  # preprocessing strategy
 data_loader: imagenet1k_basic  # 'imagenet1k_basic' only
 dataset_dir: ${DATA}  # user must specify ${DATA_LMDB} environment variable
-data_loader_workers: 62  # number of total workers
+data_loader_workers: 32  # number of total workers
 
 # basic info
 image_size: 224
