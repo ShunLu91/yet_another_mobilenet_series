@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export DATA_ROOT=/home/lushun/dataset
-export METIS_WORKER_0_HOST=23456
+export METIS_WORKER_0_HOST=12345
 export METIS_WORKER_0_PORT=22
 export METIS_TASK_INDEX=0
 export ARNOLD_WORKER_NUM=16
@@ -10,4 +10,4 @@ export ARNOLD_OUTPUT=/home/lushun/code/yet_another_mobilenet_series/output
 
 source ./scripts/utils/setup.sh
 source ./scripts/utils/export_data.sh
-nohup bash ./scripts/utils/remote_run.sh $@ > output/mbv2.log 2>&1 &
+nohup bash ./scripts/utils/remote_run.sh $@ > output/mbv2_lmdb.log 2>&1 &
